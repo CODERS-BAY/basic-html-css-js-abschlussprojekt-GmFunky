@@ -1,0 +1,39 @@
+* {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+
+}
+
+.back {
+      background-color: blanchedalmond;
+}
+
+.divStyle {
+      padding-left: 10%;
+      padding-right: 10%;
+      padding-top: 5%;
+}
+
+.footerfontStyle {
+      font-family: 'Galada', cursive;
+      font-size: 30px;
+
+}
+
+.footerStyleDesign {
+      color: aliceblue;
+
+}
+
+.footerStyle {
+      color: rgb(127, 146, 163);
+
+}
+
+.navbar-brand {
+      padding: 0 15px;
+      height: 40px;
+      line-height: 40px;
+
+}

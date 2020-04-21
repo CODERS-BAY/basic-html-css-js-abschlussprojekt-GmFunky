@@ -1,0 +1,155 @@
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+
+}
+
+.back {
+   background-image: url('../img/falloutback.jpg');
+   background-color: black;
+   background-size: cover;
+   background-repeat: no-repeat;
+   background-attachment: fixed;
+   background-position: center;
+   height: 50vh;
+   width: 100%;
+
+}
+
+.ueberschrift1Style {
+   font-size: 7vw;
+   text-align: center;
+   padding-top: 60px;
+   font-family: 'Black Han Sans', sans-serif;
+
+}
+
+.imgTeile {
+   max-width: 80%;
+   height: auto;
+   padding-top: 100px;
+
+}
+
+.section1Style {
+   padding-top: 2vw;
+   text-align: center;
+   height: 100vh;
+   width: 100%;
+
+}
+
+.section2Style {
+   padding-top: 110px;
+   padding-bottom: 130px;
+   text-align: center;
+
+}
+
+.section3Style {
+   background-attachment: fixed;
+   margin-left: auto;
+   margin-right: auto;
+   padding-left: 15%;
+   padding-right: 15%;
+   background-color: black;
+   padding-bottom: 260px;
+
+}
+
+.h2Style {
+   color: darkorange;
+   padding-top: 70px;
+   padding-bottom: 10px;
+
+}
+
+.articleStyle {
+   margin: 40px;
+
+}
+
+.articlefontStyle {
+   color: ghostwhite;
+
+}
+
+.h1Style {
+   padding-bottom: 30px;
+   color: darkorange;
+
+}
+
+.footerfontStyle {
+   font-family: 'Galada', cursive;
+   font-size: 30px;
+
+}
+
+.footerStyleDesign {
+   color: aliceblue;
+
+}
+
+.footerStyle {
+   color: rgb(127, 146, 163);
+
+}
+
+p {
+   font-size: 20px;
+
+}
+
+.navbar-brand {
+   padding: 0 15px;
+   height: 40px;
+   line-height: 40px;
+
+}
+
+@media screen and (min-width:1920px) {
+   .back {
+      height: 460vh;
+   }
+
+   .section3Style {
+      padding-bottom: 55px;
+      padding-left: 20%;
+      padding-right: 20%;
+   }
+
+   .ueberschrift1Style {
+      padding-top: 80px;
+   }
+
+   .section1Style {
+      padding-top: 4vw;
+   }
+}
+
+@media screen and (max-width:500px) {
+   p {
+      font-size: 14px;
+   }
+
+   .back {
+      height: 50%;
+   }
+
+   .section1Style {
+      height: 50%;
+   }
+
+   .section3Style {
+      padding-bottom: 55px;
+      padding-left: 2%;
+      padding-right: 2%;
+   }
+
+   h2 {
+      font-size: 20px;
+   }
+
+}
