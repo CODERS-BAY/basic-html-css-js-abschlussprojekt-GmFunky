@@ -1,0 +1,64 @@
+* {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    
+    }
+
+    .back {
+      background-color: black;
+      background-size: cover;
+      background-position: center;
+      height: 86vh;
+      width: 100%;
+      min-height: auto;
+      max-width: auto;
+    }   
+  
+  .ueberschrift1Style{
+     color: rgb(68, 68, 129);
+     font-size: 3.5vmax; 
+     text-align: center;
+     padding-top: 50px;
+     font-family: 'Black Han Sans', sans-serif;
+  }
+
+  
+  .historyStyle{
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    padding-top:50px;
+    padding-bottom: 200px;
+    text-align: center;
+    max-width: 100%;
+    height: auto;
+ }
+
+ .carousel-item.active,
+ .carousel-item-next,
+ .carousel-item-prev{
+     display:block;
+ }
+
+ .footerfontStyle{
+  font-family: 'Galada', cursive;
+  font-size: 30px;
+  
+ }
+
+ .footerStyleDesign{
+  color: aliceblue;
+
+ }
+
+ .footerStyle{
+  color: rgb(127, 146, 163);
+  
+ }
+
+ .navbar-brand {
+  padding: 0 15px;
+  height: 40px;
+  line-height: 40px;
+}
