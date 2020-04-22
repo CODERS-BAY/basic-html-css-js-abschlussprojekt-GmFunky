@@ -1,0 +1,153 @@
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+
+}
+
+.back {
+   background-image: url('../img/borderlands.jpg');
+   background-color: black;
+   background-size: cover;
+   background-attachment: fixed;
+   background-repeat: no-repeat;
+   background-position: center;
+   height: 50vh;
+   width: 100%;
+
+
+}
+
+.ueberschrift1Style {
+   font-size: 5vw;
+   text-align: center;
+   padding-top: 20px;
+   font-family: 'Black Han Sans', sans-serif;
+
+}
+
+.section1Style {
+   padding-top: 2vw;
+   text-align: center;
+   height: 100vh;
+   width: 100%;
+
+}
+
+.imgTeile {
+   padding-top: 80px;
+   max-width: 80%;
+   height: auto;
+
+}
+
+.section2Style {
+   padding-top: 100px;
+   padding-bottom: 130px;
+   text-align: center;
+
+}
+
+.section3Style {
+   margin-left: auto;
+   margin-right: auto;
+   padding-left: 15%;
+   padding-right: 15%;
+   background-color: black;
+   padding-bottom: 70px;
+
+}
+
+.h2Style {
+   color: darkorange;
+   padding-top: 70px;
+   padding-bottom: 10px;
+
+}
+
+.articleStyle {
+   margin: 40px;
+
+}
+
+.articlefontStyle {
+   color: ghostwhite;
+
+}
+
+.h1Style {
+   padding-bottom: 30px;
+   color: darkorange;
+
+}
+
+.footerfontStyle {
+   font-family: 'Galada', cursive;
+   font-size: 30px;
+
+}
+
+.footerStyleDesign {
+   color: aliceblue;
+
+}
+
+.footerStyle {
+   color: rgb(127, 146, 163);
+
+}
+
+p {
+   font-size: 20px;
+}
+
+.navbar-brand {
+   padding: 0 15px;
+   height: 40px;
+   line-height: 40px;
+}
+
+@media screen and (min-width:1920px) {
+   .back {
+      height: 490vh;
+   }
+
+   .section3Style {
+      padding-bottom: 55px;
+      padding-left: 20%;
+      padding-right: 20%;
+   }
+
+   .ueberschrift1Style {
+      padding-top: 60px;
+   }
+
+   .section1Style {
+      padding-top: 4vw;
+   }
+}
+
+@media screen and (max-width:500px) {
+   p {
+      font-size: 14px;
+   }
+
+   .back {
+      height: 50%;
+   }
+
+   .section1Style {
+      height: 50%;
+      padding-top: 50px;
+   }
+
+   .section3Style {
+      padding-bottom: 55px;
+      padding-left: 2%;
+      padding-right: 2%;
+   }
+
+   h2 {
+      font-size: 20px;
+   }
+}

@@ -1,0 +1,103 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+}
+
+.back {
+  background-image: url('../img/ps.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  width: 100%;
+  min-height: auto;
+  max-width: auto;
+}
+
+.fontStyle1 {
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 3.5vw;
+  text-align: center;
+  padding-top: 280px;
+  font-family: 'Anton', sans-serif;
+}
+
+.fontStyle2 {
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 3.5vw;
+  text-align: center;
+  padding-top: 280px;
+  font-family: 'Anton', sans-serif;
+}
+
+.fontStyle3 {
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 3.5vw;
+  text-align: center;
+  padding-top: 280px;
+  font-family: 'Anton', sans-serif;
+}
+
+.fontStyle4 {
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 3.5vw;
+  text-align: center;
+  padding-top: 280px;
+  font-family: 'Anton', sans-serif;
+}
+
+
+.carousel-item.active,
+.carousel-item-next,
+.carousel-item-prev {
+  display: block;
+}
+
+.footerfontStyle {
+  font-family: 'Galada', cursive;
+  font-size: 30px;
+
+}
+
+.footerStyleDesign {
+  color: aliceblue;
+
+}
+
+.footerStyle {
+  color: rgb(127, 146, 163);
+
+}
+
+.navbar-brand {
+  padding: 0 15px;
+  height: 40px;
+  line-height: 40px;
+
+}
+
+
+@media screen and (min-width:1920px) {
+
+  .fontStyle1,
+  .fontStyle2,
+  .fontStyle3,
+  .fontStyle4 {
+    padding-top: 385px;
+  }
+}
+
+@media screen and (max-width:500px) {
+
+  .fontStyle1,
+  .fontStyle2,
+  .fontStyle3,
+  .fontStyle4 {
+    padding-top: 280px;
+  }
+}
