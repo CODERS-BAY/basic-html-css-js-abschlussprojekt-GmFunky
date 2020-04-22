@@ -1,0 +1,654 @@
+* {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+
+}
+
+/*Index*/
+
+.backIndex {
+      background-image: url('../img/ps.jpg');
+      background-size: cover;
+      background-position: center;
+      height: 100vh;
+      width: 100%;
+      min-height: auto;
+      max-width: auto;
+}
+
+.fontStyle1Index {
+      margin-left: auto;
+      margin-right: auto;
+      font-size: 3.5vw;
+      text-align: center;
+      padding-top: 280px;
+      font-family: 'Anton', sans-serif;
+}
+
+.fontStyle2Index {
+      margin-left: auto;
+      margin-right: auto;
+      font-size: 3.5vw;
+      text-align: center;
+      padding-top: 280px;
+      font-family: 'Anton', sans-serif;
+}
+
+.fontStyle3Index {
+      margin-left: auto;
+      margin-right: auto;
+      font-size: 3.5vw;
+      text-align: center;
+      padding-top: 280px;
+      font-family: 'Anton', sans-serif;
+}
+
+.fontStyle4Index  {
+      margin-left: auto;
+      margin-right: auto;
+      font-size: 3.5vw;
+      text-align: center;
+      padding-top: 280px;
+      font-family: 'Anton', sans-serif;
+}
+
+
+.footerfontStyleIndex  {
+      font-family: 'Galada', cursive;
+      font-size: 30px;
+
+}
+
+.footerStyleDesignIndex  {
+      color: aliceblue;
+
+}
+
+.footerStyleIndex  {
+      color: rgb(127, 146, 163);
+
+}
+
+.navbar-brandIndex  {
+      padding: 0 15px;
+      height: 40px;
+      line-height: 40px;
+
+}
+
+
+@media screen and (min-width:1920px) {
+
+      .fontStyle1Index ,
+      .fontStyle2Index ,
+      .fontStyle3Index ,
+      .fontStyle4Index  {
+            padding-top: 385px;
+      }
+}
+
+@media screen and (max-width:500px) {
+
+      .fontStyle1Index ,
+      .fontStyle2Index ,
+      .fontStyle3Index ,
+      .fontStyle4Index  {
+            padding-top: 280px;
+      }
+}
+
+/*History*/
+
+.backHistory {
+      background-color: black;
+      background-size: cover;
+      background-position: center;
+      height: 86vh;
+      width: 100%;
+      min-height: auto;
+      max-width: auto;
+}
+
+.ueberschrift1StyleHistory  {
+      color: rgb(68, 68, 129);
+      font-size: 3.5vmax;
+      text-align: center;
+      padding-top: 50px;
+      font-family: 'Black Han Sans', sans-serif;
+}
+
+
+.historyStyleHistory  {
+      margin-left: auto;
+      margin-right: auto;
+      display: block;
+      padding-top: 50px;
+      padding-bottom: 200px;
+      text-align: center;
+      max-width: 100%;
+      height: auto;
+}
+
+
+.footerfontStyleHistory  {
+      font-family: 'Galada', cursive;
+      font-size: 30px;
+
+}
+
+.footerStyleDesignHistory  {
+      color: aliceblue;
+
+}
+
+.footerStyleHistory  {
+      color: rgb(127, 146, 163);
+
+}
+
+.navbar-brandHistory  {
+      padding: 0 15px;
+      height: 40px;
+      line-height: 40px;
+}
+
+
+
+/*Helldiver*/
+
+.backHellDiver {
+      background-image: url('../img/hellback.png');
+      background-color: black;
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      height: 90vh;
+      width: 100%;
+
+}
+
+.navbarStyleHellDiver {
+      text-align: center;
+
+}
+
+.ueberschrift1StyleHellDiver {
+      font-size: 6vw;
+      text-align: center;
+      padding-top: 4%;
+      font-family: 'Black Han Sans', sans-serif;
+
+}
+
+.section1StyleHellDiver {
+      padding-top: 2vw;
+      text-align: center;
+      height: 100vh;
+      width: 100%;
+
+}
+
+.imgTeileHellDiver {
+      max-width: 80%;
+      height: auto;
+      padding-top: 7%;
+
+}
+
+.section1StyleHellDiver {
+      text-align: center;
+      height: 95vh;
+      width: 100%;
+
+}
+
+.section2StyleHellDiver {
+      padding-top: 60px;
+      padding-bottom: 130px;
+      text-align: center;
+
+}
+
+.section3StyleHellDiver {
+      background-attachment: fixed;
+      margin-left: auto;
+      margin-right: auto;
+      padding-left: 15%;
+      padding-right: 15%;
+      background-color: black;
+      padding-bottom: 10px;
+
+}
+
+.h2StyleHellDiver {
+      color: darkorange;
+      padding-top: 70px;
+      padding-bottom: 10px;
+      font-family: 'Patua One', cursive;
+
+}
+
+.articleStyleHellDiver {
+      margin: 40px;
+
+}
+
+.articlefontStyleHellDiver {
+      color: ghostwhite;
+
+}
+
+.h1Style {
+      padding-bottom: 30px;
+      color: darkorange;
+
+}
+
+.footerStyleHellDiver {
+      margin-top: 100px;
+
+}
+
+.footerfontStyleHellDiver {
+      font-family: 'Galada', cursive;
+      font-size: 30px;
+      color: cornsilk;
+
+}
+
+
+.footerStyleHellDiver {
+      color: rgb(234, 238, 241);
+
+}
+
+p{
+      font-size: 20px;
+}
+
+.navbar-brandHellDiver {
+      padding: 0 15px;
+      height: 40px;
+      line-height: 40px;
+
+}
+
+@media screen and (min-width:1920px) {
+      .backHellDiver {
+            height: 425vh;
+      }
+
+      .section3StyleHellDiver {
+            padding-bottom: 55px;
+            padding-left: 20%;
+            padding-right: 20%;
+      }
+}
+
+@media screen and (max-width:700px) {
+      p {
+            font-size: 14px;
+      }
+
+      .backHellDiver {
+            height: 50%;
+      }
+
+      .section1StyleHellDiver {
+            height: 50%;
+            padding-top: 50px;
+      }
+
+      .section3StyleHellDiver {
+            padding-bottom: 55px;
+            padding-left: 2%;
+            padding-right: 2%;
+      }
+
+      .imgTeileHellDiver {
+            width: 30%;
+      }
+
+      .h2StyleHellDiver {
+            font-size: 20px;
+      }
+}
+
+
+/*Borderlands*/
+
+.backBorderlands {
+      background-image: url('../img/borderlands.jpg');
+      background-color: black;
+      background-size: cover;
+      background-attachment: fixed;
+      background-repeat: no-repeat;
+      background-position: center;
+      height: 50vh;
+      width: 100%;
+
+
+}
+
+.ueberschrift1StyleBorderlands {
+      font-size: 5vw;
+      text-align: center;
+      padding-top: 20px;
+      font-family: 'Black Han Sans', sans-serif;
+
+}
+
+.section1StyleBorderlands {
+      padding-top: 2vw;
+      text-align: center;
+      height: 100vh;
+      width: 100%;
+
+}
+
+.imgTeileBorderlands {
+      padding-top: 80px;
+      max-width: 80%;
+      height: auto;
+
+}
+
+.section2StyleBorderlands {
+      padding-top: 100px;
+      padding-bottom: 130px;
+      text-align: center;
+
+}
+
+.section3StyleBorderlands {
+      margin-left: auto;
+      margin-right: auto;
+      padding-left: 15%;
+      padding-right: 15%;
+      background-color: black;
+      padding-bottom: 70px;
+
+}
+
+.h2StyleBorderlands {
+      color: darkorange;
+      padding-top: 70px;
+      padding-bottom: 10px;
+
+}
+
+.articleStyleBorderlands {
+      margin: 40px;
+
+}
+
+.articlefontStyleBorderlands {
+      color: ghostwhite;
+
+}
+
+.h1StyleBorderlands {
+      padding-bottom: 30px;
+      color: darkorange;
+
+}
+
+.footerfontStyleBorderlands {
+      font-family: 'Galada', cursive;
+      font-size: 30px;
+
+}
+
+.footerStyleDesignBorderlands {
+      color: aliceblue;
+
+}
+
+.footerStyleBorderlands {
+      color: rgb(127, 146, 163);
+
+}
+
+p {
+      font-size: 20px;
+}
+
+.navbar-brandBorderlands {
+      padding: 0 15px;
+      height: 40px;
+      line-height: 40px;
+}
+
+@media screen and (min-width:1920px) {
+      .backBorderlands {
+            height: 490vh;
+      }
+
+      .section3StyleBorderlands {
+            padding-bottom: 55px;
+            padding-left: 20%;
+            padding-right: 20%;
+      }
+
+      .ueberschrift1StyleBorderlands {
+            padding-top: 60px;
+      }
+
+      .section1StyleBorderlands {
+            padding-top: 4vw;
+      }
+}
+
+@media screen and (max-width:500px) {
+      p {
+            font-size: 14px;
+      }
+
+      .backBorderlands {
+            height: 50%;
+      }
+
+      .section1StyleBorderlands {
+            height: 50%;
+            padding-top: 50px;
+      }
+
+      .section3StyleBorderlands {
+            padding-bottom: 55px;
+            padding-left: 2%;
+            padding-right: 2%;
+      }
+
+      .h2Borderlands {
+            font-size: 20px;
+      }
+}
+
+/*Fallout*/
+
+.backFallout {
+      background-image: url('../img/falloutback.jpg');
+      background-color: black;
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      background-position: center;
+      height: 50vh;
+      width: 100%;
+
+}
+
+.ueberschrift1StyleFallout {
+      font-size: 7vw;
+      text-align: center;
+      padding-top: 60px;
+      font-family: 'Black Han Sans', sans-serif;
+
+}
+
+.imgTeileFallout {
+      max-width: 80%;
+      height: auto;
+      padding-top: 100px;
+
+}
+
+.section1StyleFallout {
+      padding-top: 2vw;
+      text-align: center;
+      height: 100vh;
+      width: 100%;
+
+}
+
+.section2StyleFallout {
+      padding-top: 110px;
+      padding-bottom: 130px;
+      text-align: center;
+
+}
+
+.section3StyleFallout {
+      background-attachment: fixed;
+      margin-left: auto;
+      margin-right: auto;
+      padding-left: 15%;
+      padding-right: 15%;
+      background-color: black;
+      padding-bottom: 260px;
+
+}
+
+.h2StyleFallout {
+      color: darkorange;
+      padding-top: 70px;
+      padding-bottom: 10px;
+
+}
+
+.articleStyleFallout {
+      margin: 40px;
+
+}
+
+.articlefontStyleFallout {
+      color: ghostwhite;
+
+}
+
+.h1StyleFallout {
+      padding-bottom: 30px;
+      color: darkorange;
+
+}
+
+.footerfontStyleFallout {
+      font-family: 'Galada', cursive;
+      font-size: 30px;
+
+}
+
+.footerStyleDesignFallout {
+      color: aliceblue;
+
+}
+
+.footerStyleFallout {
+      color: rgb(127, 146, 163);
+
+}
+
+p {
+      font-size: 20px;
+
+}
+
+.navbar-brandFallout {
+      padding: 0 15px;
+      height: 40px;
+      line-height: 40px;
+
+}
+
+@media screen and (min-width:1920px) {
+      .backFallout {
+            height: 460vh;
+      }
+
+      .section3StyleFallout {
+            padding-bottom: 55px;
+            padding-left: 20%;
+            padding-right: 20%;
+      }
+
+      .ueberschrift1StyleFallout {
+            padding-top: 80px;
+      }
+
+      .section1StyleFallout {
+            padding-top: 4vw;
+      }
+}
+
+@media screen and (max-width:500px) {
+      p {
+            font-size: 14px;
+      }
+
+      .backFallout {
+            height: 50%;
+      }
+
+      .section1StyleFallout {
+            height: 50%;
+      }
+
+      .section3StyleFallout {
+            padding-bottom: 55px;
+            padding-left: 2%;
+            padding-right: 2%;
+      }
+
+      .h2StyleFallout {
+            font-size: 20px;
+      }
+
+}
+
+
+/*Impressum*/
+
+.backImpressum {
+      background-color: blanchedalmond;
+}
+
+.divStyleImpressum {
+      padding-left: 10%;
+      padding-right: 10%;
+      padding-top: 5%;
+}
+
+.footerfontStyleImpressum {
+      font-family: 'Galada', cursive;
+      font-size: 30px;
+
+}
+
+.footerStyleDesignImpressum {
+      color: aliceblue;
+
+}
+
+.footerStyleImpressum {
+      color: rgb(127, 146, 163);
+
+}
+
+.navbar-brandImpressum {
+      padding: 0 15px;
+      height: 40px;
+      line-height: 40px;
+
+}
