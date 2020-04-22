@@ -464,6 +464,9 @@ p {
       .h2Borderlands {
             font-size: 20px;
       }
+      .section2StyleBorderlands{
+            padding-top: 40px;
+      }
 }
 
 /*Fallout*/
@@ -521,7 +524,7 @@ p {
 
 }
 
-.h2StyleFallout {
+h2 {
       color: darkorange;
       padding-top: 70px;
       padding-bottom: 10px;
@@ -611,8 +614,11 @@ p {
             padding-right: 2%;
       }
 
-      .h2StyleFallout {
+      h2 {
             font-size: 20px;
+      }
+      .section2StyleFallout{
+            padding-top: 40px;
       }
 
 }
