@@ -5,6 +5,10 @@
     
     }
 
+    html {
+      scroll-behavior: smooth;
+    }
+
     .back {
       background-color: black;
       background-size: cover;
@@ -43,7 +47,7 @@
 
  .footerfontStyle{
   font-family: 'Galada', cursive;
-  font-size: 30px;
+  font-size: 20px;
   
  }
 

@@ -5,8 +5,13 @@
 
 }
 
+html {
+   scroll-behavior: smooth;
+ }
+
 .back {
-   background-image: url('../img/borderlands.jpg');
+
+   background-image: url('../img/borderlands.jpg') ;
    background-color: black;
    background-size: cover;
    background-attachment: fixed;
@@ -31,6 +36,7 @@
    text-align: center;
    height: 100vh;
    width: 100%;
+   background: linear-gradient(0deg,rgba(250, 248, 248, 0.288) 25%,rgba(252, 250, 250, 0.322) 50%) !important;
 
 }
 
@@ -45,6 +51,7 @@
    padding-top: 100px;
    padding-bottom: 130px;
    text-align: center;
+   background: linear-gradient(0deg,rgba(250, 248, 248, 0.288) 25%,rgba(252, 250, 250, 0.322) 50%) !important;
 
 }
 
@@ -55,6 +62,9 @@
    padding-right: 15%;
    background-color: black;
    padding-bottom: 70px;
+   padding-top: 20px;
+   background: linear-gradient(0deg,rgba(0,0,0,0.65) 50%,rgba(0,0,0,0.85) 100%) !important;
+
 
 }
 
@@ -70,8 +80,14 @@
 
 }
 
+.galleryStyle{
+   color: rgb(66, 62, 62);
+   padding-bottom: 15px;
+   font-family: 'Black Han Sans', sans-serif;
+}
+
 .articlefontStyle {
-   color: ghostwhite;
+   color: rgb(189, 189, 204);
 
 }
 
@@ -83,7 +99,8 @@
 
 .footerfontStyle {
    font-family: 'Galada', cursive;
-   font-size: 30px;
+   font-size: 20px;
+
 
 }
 
@@ -93,12 +110,12 @@
 }
 
 .footerStyle {
-   color: rgb(127, 146, 163);
+   color: rgb(187, 193, 199);
 
 }
 
 p {
-   font-size: 20px;
+   font-size: 12Pt;
 }
 
 .navbar-brand {

@@ -5,6 +5,10 @@
 
 }
 
+html {
+   scroll-behavior: smooth;
+ }
+
 .back {
    background-image: url('../img/hellback.png');
    background-color: black;
@@ -41,7 +45,7 @@
 .imgTeile {
    max-width: 80%;
    height: auto;
-   padding-top: 7%;
+   padding-top: 8%;
 
 }
 
@@ -49,6 +53,7 @@
    text-align: center;
    height: 95vh;
    width: 100%;
+   background: linear-gradient(0deg,rgba(250, 248, 248, 0.288) 25%,rgba(252, 250, 250, 0.322) 50%) !important;
 
 }
 
@@ -56,6 +61,7 @@
    padding-top: 60px;
    padding-bottom: 130px;
    text-align: center;
+   background: linear-gradient(0deg,rgba(250, 248, 248, 0.288) 25%,rgba(252, 250, 250, 0.322) 50%) !important;
 
 }
 
@@ -66,7 +72,9 @@
    padding-left: 15%;
    padding-right: 15%;
    background-color: black;
+   padding-top: 20px;
    padding-bottom: 10px;
+   background: linear-gradient(0deg,rgba(0,0,0,0.55) 50%,rgba(0,0,0,0.75) 100%) !important;
 
 }
 
@@ -84,7 +92,7 @@
 }
 
 .articlefontStyle {
-   color: ghostwhite;
+   color: rgb(215, 221, 228);
 
 }
 
@@ -94,6 +102,12 @@
 
 }
 
+.galleryStyle{
+    color: rgb(66, 62, 62);
+    padding-bottom: 15px;
+    font-family: 'Black Han Sans', sans-serif;
+}
+
 .footerStyle {
    margin-top: 100px;
 
@@ -101,7 +115,7 @@
 
 .footerfontStyle {
    font-family: 'Galada', cursive;
-   font-size: 30px;
+   font-size: 20px;
 
 }
 
@@ -116,7 +130,7 @@
 }
 
 p {
-   font-size: 20px;
+   font-size: 12Pt;
 }
 
 .navbar-brand {
@@ -156,6 +170,7 @@ p {
       padding-bottom: 55px;
       padding-left: 2%;
       padding-right: 2%;
+      
    }
 
    .imgTeile {
