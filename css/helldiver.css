@@ -6,7 +6,7 @@
 }
 
 .back {
-   background-image: url('../img/hellback.png');
+   background-image: url('../img/hellback.png')linear-gradient(0deg,rgba(0,0,0,0.55) 50%,rgba(0,0,0,0.75) 100%) !important;
    background-color: black;
    background-size: cover;
    background-position: center;
@@ -67,6 +67,7 @@
    padding-right: 15%;
    background-color: black;
    padding-bottom: 10px;
+   background: linear-gradient(0deg,rgba(0,0,0,0.55) 50%,rgba(0,0,0,0.75) 100%) !important;
 
 }
 
@@ -84,7 +85,7 @@
 }
 
 .articlefontStyle {
-   color: ghostwhite;
+   color: rgb(187, 193, 199);
 
 }
 
@@ -116,7 +117,7 @@
 }
 
 p {
-   font-size: 20px;
+   font-size: 12Pt;
 }
 
 .navbar-brand {

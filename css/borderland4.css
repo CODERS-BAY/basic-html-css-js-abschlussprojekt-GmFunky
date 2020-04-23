@@ -6,7 +6,8 @@
 }
 
 .back {
-   background-image: url('../img/borderlands.jpg');
+
+   background-image: url('../img/borderlands.jpg') ;
    background-color: black;
    background-size: cover;
    background-attachment: fixed;
@@ -55,6 +56,8 @@
    padding-right: 15%;
    background-color: black;
    padding-bottom: 70px;
+   background: linear-gradient(0deg,rgba(0,0,0,0.65) 50%,rgba(0,0,0,0.85) 100%) !important;
+
 
 }
 
@@ -71,7 +74,7 @@
 }
 
 .articlefontStyle {
-   color: ghostwhite;
+   color: rgb(149, 149, 167);
 
 }
 
@@ -93,12 +96,12 @@
 }
 
 .footerStyle {
-   color: rgb(127, 146, 163);
+   color: rgb(187, 193, 199);
 
 }
 
 p {
-   font-size: 20px;
+   font-size: 12Pt;
 }
 
 .navbar-brand {
