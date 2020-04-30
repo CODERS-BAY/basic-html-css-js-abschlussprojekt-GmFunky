@@ -10,7 +10,7 @@ html {
  }
 
 .back {
-   background-image: url('../img/hellback.png');
+   background-image: url('../img/hellback.png')linear-gradient(0deg,rgba(0,0,0,0.55) 50%,rgba(0,0,0,0.75) 100%) !important;
    background-color: black;
    background-size: cover;
    background-position: center;
